@@ -24,15 +24,15 @@ The model utilizes two provided datasets provided by Bitgrit:
 
 ### K-Nearest Neighbors (KNN) Model
 
-* Code file: knn_model.py
+* Code file: Submissions_KNN.ipynb
 * Summary: This model utilizes the K-Nearest Neighbors algorithm for classification. It is trained on the provided train.csv dataset and used to make predictions on the test.csv dataset. The model is configured with 7 neighbors, Manhattan distance metric (p=1), and uniform weights.
 
 ### Gaussian Naive Bayes Model
 
-* Code file: gaussian_nb_model.py
+* Code file: Submissions_NBayes.ipynb
 * Summary: This model employs the Gaussian Naive Bayes algorithm for classification. It is trained on the train.csv dataset and used to predict labels for the test.csv dataset. The model is configured with a var_smoothing parameter of 0.1.
 
 ### Modified MesoNet Model
 
-* Code file: modified_mesonet_model.py
+* Code file: Submissions_ModifiedMeso.ipynb
 * Summary: This model is a modified version of the MesoNet architecture. It is trained on the train.csv dataset, which is pre-processed and reshaped to fit the model's required input shape. The model is trained using Adam optimizer, binary cross-entropy loss, and F1 score as a metric. After training, it is used to generate predictions for the test.csv dataset.
